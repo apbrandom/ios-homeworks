@@ -13,6 +13,10 @@
 		CB33B4FE2954885000FC4EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB33B4FC2954885000FC4EE7 /* Main.storyboard */; };
 		CB33B5002954885000FC4EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB33B4FF2954885000FC4EE7 /* Assets.xcassets */; };
 		CB33B5032954885000FC4EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB33B5012954885000FC4EE7 /* LaunchScreen.storyboard */; };
+		CB6712C82957342000EDC7AD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6712C72957342000EDC7AD /* ProfileView.swift */; };
+		CB77FB6129577A7400B47434 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB77FB6029577A7400B47434 /* Profile.storyboard */; };
+		CB77FB6329577A9800B47434 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77FB6229577A9800B47434 /* ProfileViewController.swift */; };
+		CBE910FE2954D8D500BEE019 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE910FD2954D8D500BEE019 /* ProfileView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CB33B4FF2954885000FC4EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB33B5022954885000FC4EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB33B5042954885000FC4EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6712C72957342000EDC7AD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CB77FB6029577A7400B47434 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CB77FB6229577A9800B47434 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CBE910FD2954D8D500BEE019 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				CB33B4FF2954885000FC4EE7 /* Assets.xcassets */,
 				CB33B5012954885000FC4EE7 /* LaunchScreen.storyboard */,
 				CB33B5042954885000FC4EE7 /* Info.plist */,
+				CBE910FD2954D8D500BEE019 /* ProfileView.xib */,
+				CB6712C72957342000EDC7AD /* ProfileView.swift */,
+				CB77FB6029577A7400B47434 /* Profile.storyboard */,
+				CB77FB6229577A9800B47434 /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -125,7 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE910FE2954D8D500BEE019 /* ProfileView.xib in Resources */,
 				CB33B5032954885000FC4EE7 /* LaunchScreen.storyboard in Resources */,
+				CB77FB6129577A7400B47434 /* Profile.storyboard in Resources */,
 				CB33B5002954885000FC4EE7 /* Assets.xcassets in Resources */,
 				CB33B4FE2954885000FC4EE7 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6712C82957342000EDC7AD /* ProfileView.swift in Sources */,
 				CB33B4FB2954885000FC4EE7 /* ViewController.swift in Sources */,
+				CB77FB6329577A9800B47434 /* ProfileViewController.swift in Sources */,
 				CB33B4F72954885000FC4EE7 /* AppDelegate.swift in Sources */,
 				CB33B4F92954885000FC4EE7 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,13 +303,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JY83H55A5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = ProfileView.xib;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,13 +333,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JY83H55A5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = ProfileView.xib;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
