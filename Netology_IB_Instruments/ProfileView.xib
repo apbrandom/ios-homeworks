@@ -23,13 +23,43 @@
                                 <constraint firstAttribute="width" secondItem="jDJ-hl-0e8" secondAttribute="height" multiplier="1:1" id="9MN-GP-9bE"/>
                             </constraints>
                         </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="QFR-O5-vEk">
+                            <rect key="frame" x="186" y="15" width="196" height="170"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uS8-9R-s7Z">
+                                    <rect key="frame" x="0.0" y="0.0" width="196" height="39.333333333333336"/>
+                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7T3-Wi-HzK">
+                                    <rect key="frame" x="0.0" y="65.333333333333329" width="196" height="39.333333333333329"/>
+                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOu-b0-ENa">
+                                    <rect key="frame" x="0.0" y="130.66666666666666" width="196" height="39.333333333333343"/>
+                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBrownColor"/>
                     <constraints>
+                        <constraint firstAttribute="bottom" secondItem="QFR-O5-vEk" secondAttribute="bottom" constant="15" id="3jd-KB-FsR"/>
                         <constraint firstItem="jDJ-hl-0e8" firstAttribute="top" secondItem="0LX-aT-VoG" secondAttribute="top" constant="15" id="7zw-Yi-SDG"/>
                         <constraint firstAttribute="bottom" secondItem="jDJ-hl-0e8" secondAttribute="bottom" constant="15" id="8Oi-EZ-DQ9"/>
                         <constraint firstItem="jDJ-hl-0e8" firstAttribute="leading" secondItem="0LX-aT-VoG" secondAttribute="leading" constant="8" id="gap-8f-A1h"/>
+                        <constraint firstAttribute="trailing" secondItem="QFR-O5-vEk" secondAttribute="trailing" constant="8" id="hRh-oR-gVm"/>
                         <constraint firstAttribute="height" constant="200" id="kG4-ta-5Yv"/>
+                        <constraint firstItem="QFR-O5-vEk" firstAttribute="leading" secondItem="jDJ-hl-0e8" secondAttribute="trailing" constant="8" id="mma-XE-jeY"/>
+                        <constraint firstItem="QFR-O5-vEk" firstAttribute="top" secondItem="0LX-aT-VoG" secondAttribute="top" constant="15" id="oyr-rz-QYn"/>
                     </constraints>
                 </view>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t31-uR-Gcv">
@@ -64,6 +94,9 @@
         </systemColor>
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
