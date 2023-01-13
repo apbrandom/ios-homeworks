@@ -13,7 +13,6 @@ class ProfileView: UIView {
     @IBOutlet weak var labelName: UILabel!
     @IBOutlet weak var labelDateOfBirht: UILabel!
     @IBOutlet weak var labelCity: UILabel!
-    
-    
+        
 }
     
